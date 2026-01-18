@@ -4,8 +4,8 @@ class Conectar:
     def __init__(self):
         self.database = mysql.connector.connect(
             host='localhost',
-            user='estudiante',
-            passwd='1234',
+            user='root',
+            passwd='',
             database='notas_tech',
             port=3306
         )
